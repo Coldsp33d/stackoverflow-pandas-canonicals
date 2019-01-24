@@ -26,6 +26,8 @@ A brief writeup about the situations where for loops and iterative routines outp
 A brief primer on the `eval` and `query` family of functions and how they can effectively be used for dynamically evaluating expressions.
 
 ### Comprehensive Answers to Older Questions
+Upto date answers to old questions, also appropriate as closure targets.
+
 - [How to deal with SettingWithCopyWarning in Pandas?](https://stackoverflow.com/questions/20625582/how-to-deal-with-settingwithcopywarning-in-pandas/53954986#53954986)    
 Details the causes and fixes (good, and bad) for the `SettingWithCopyWarning` in pandas. 
 
