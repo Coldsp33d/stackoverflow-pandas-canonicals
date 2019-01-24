@@ -4,7 +4,7 @@ A compilation of all my canonical posts and answers to old questions on Stack Ov
 ### Canonicals
 Meant to serve as duplicate targets for new questions.
 
-- [Pandas Merging 101](https://stackoverflow.com/questions/53645882/pandas-merging-101)
+- [Pandas Merging 101](https://stackoverflow.com/questions/53645882/pandas-merging-101)        
 A primer on merging
 
 - [How do I slice or filter MultiIndex DataFrame levels?](https://stackoverflow.com/q/53927460/4909087)
