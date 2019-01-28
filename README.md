@@ -80,3 +80,11 @@ Label based selection on columns.
 
 - [Get particular row as series from pandas dataframe](https://stackoverflow.com/questions/19599578/get-particular-row-as-series-from-pandas-dataframe/54344511#54344511)    
 The most appropriate method of extracting a single row as a Series.
+
+- [Logical operators for boolean indexing in Pandas](https://stackoverflow.com/a/54358361/4909087)
+
+- [What is the difference between size and count in pandas?](https://stackoverflow.com/a/54364400/4909087)
+
+- [Append string to the start of each value in a said column of a pandas dataframe (elegantly)](https://stackoverflow.com/a/54392591/4909087)
+
+- ['DataFrame' object has no attribute 'sort'](https://stackoverflow.com/a/54399214/4909087)
