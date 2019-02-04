@@ -75,7 +75,7 @@ Faster alternatives to `DataFrame.replace`.
 - [How do I get a DataFrame Index / Series column as an array or list?](https://stackoverflow.com/questions/17241004/how-do-i-get-a-dataframe-index-series-column-as-an-array-or-list/54324513#54324513)      
 Extract the underlying NumPy array or list from a Series/Index — Updated for the latest version of pandas (using `array` and `to_numpy()`).
 
-- [https://stackoverflow.com/a/54508052/4909087](https://stackoverflow.com/questions/13187778/convert-pandas-dataframe-to-numpy-array/54508052#54508052)        
+- [Convert pandas dataframe to NumPy array](https://stackoverflow.com/questions/13187778/convert-pandas-dataframe-to-numpy-array/54508052#54508052)        
 Similar to above, use `to_numpy()`.
 
 - [Setting DataFrame column headers to a MultiIndex](https://stackoverflow.com/questions/18262962/setting-dataframe-column-headers-to-a-multiindex/54335583#54335583)    
