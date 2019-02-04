@@ -22,6 +22,9 @@ Augmenting your answers with helpful information without having to repeat yourse
 - [For loops with pandas - When should I care?](https://stackoverflow.com/questions/54028199/for-loops-with-pandas-when-should-i-care)     
 A brief writeup about the situations where for loops and iterative routines outperform pandas.
 
+- [When should I ever want to use pandas apply() in my code?](https://stackoverflow.com/q/54432583/4909087)    
+Understanding when apply is bad and when it is not. See both answers for the full picture.
+
 - [Dynamic Expression Evaluation in pandas using pd.eval()](https://stackoverflow.com/q/53779986/4909087)     
 A brief primer on the `eval` and `query` family of functions and how they can effectively be used for dynamically evaluating expressions.
 
@@ -69,8 +72,11 @@ Details string methods that are available for `Index` objects.
 - [Replace string/value in entire DataFrame](https://stackoverflow.com/questions/17142304/replace-string-value-in-entire-dataframe/54322615#54322615)    
 Faster alternatives to `DataFrame.replace`.
 
-- [How do I get a DataFrame Index / Series column as an array or list?](https://stackoverflow.com/questions/17241004/how-do-i-get-a-dataframe-index-series-column-as-an-array-or-list/54324513#54324513)  
-Extract the underlying NumPy array or list from a Series/Index.
+- [How do I get a DataFrame Index / Series column as an array or list?](https://stackoverflow.com/questions/17241004/how-do-i-get-a-dataframe-index-series-column-as-an-array-or-list/54324513#54324513)      
+Extract the underlying NumPy array or list from a Series/Index — Updated for the latest version of pandas (using `array` and `to_numpy()`).
+
+- [https://stackoverflow.com/a/54508052/4909087](https://stackoverflow.com/questions/13187778/convert-pandas-dataframe-to-numpy-array/54508052#54508052)        
+Similar to above, use `to_numpy()`.
 
 - [Setting DataFrame column headers to a MultiIndex](https://stackoverflow.com/questions/18262962/setting-dataframe-column-headers-to-a-multiindex/54335583#54335583)    
 
@@ -81,10 +87,28 @@ Label based selection on columns.
 - [Get particular row as series from pandas dataframe](https://stackoverflow.com/questions/19599578/get-particular-row-as-series-from-pandas-dataframe/54344511#54344511)    
 The most appropriate method of extracting a single row as a Series.
 
-- [Logical operators for boolean indexing in Pandas](https://stackoverflow.com/a/54358361/4909087)
+- [Logical operators for boolean indexing in Pandas](https://stackoverflow.com/a/54358361/4909087)    
+Explanation of vectorized `and`, `or`, `not` in pandas.
 
-- [What is the difference between size and count in pandas?](https://stackoverflow.com/a/54364400/4909087)
+- [What is the difference between size and count in pandas?](https://stackoverflow.com/a/54364400/4909087)    
 
-- [Append string to the start of each value in a said column of a pandas dataframe (elegantly)](https://stackoverflow.com/a/54392591/4909087)
+- [Append string to the start of each value in a said column of a pandas dataframe (elegantly)](https://stackoverflow.com/a/54392591/4909087)    
+Performant list comprehension alternatives to pandas string methods.
 
-- ['DataFrame' object has no attribute 'sort'](https://stackoverflow.com/a/54399214/4909087)
+- ['DataFrame' object has no attribute 'sort'](https://stackoverflow.com/a/54399214/4909087)    
+Sorting primer 101 with the new `sort_values` API.
+
+- [Python pandas insert list into a cell](https://stackoverflow.com/questions/26483254/python-pandas-insert-list-into-a-cell/54399996#54399996)    
+More idiomatic alternatives for pandas in 2019.
+
+- [How to add a suffix (or prefix) to each column name?](https://stackoverflow.com/a/54410631/4909087)    
+Draw a distinction between cheaper in-place assignment v/s copy in method chaining.
+
+- [Python Pandas Create New Column with Groupby().Sum()](https://stackoverflow.com/a/54417351/4909087)    
+Interesting alternative to `transform` using map
+
+- [Get last “column” after .str.split() operation on column in pandas DataFrame](https://stackoverflow.com/a/54457389/4909087)    
+Vectorized string and list comprehension methods.
+
+
+- (Python question) [Check if something is not in a list in Python](https://stackoverflow.com/a/54437309/4909087)
