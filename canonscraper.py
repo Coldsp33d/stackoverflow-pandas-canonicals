@@ -2,13 +2,12 @@
 from bs4 import BeautifulSoup
 import requests
 import re
-import pandas
+import pandas as pd
 import html 
 
 user_id = '4909087'
 user_url = f'https://api.stackexchange.com/2.2/users/{user_id}?order=desc&sort=reputation&site=stackoverflow'
 username = requests.get(user_url).json()['items'][0]['display_name']
-
 
 repo = 'https://github.com/Coldsp33d/stackoverflow-pandas-canonicals/blob/master/README.md'
 posts_url = 'https://api.stackexchange.com/2.2/posts/{}?order=desc&sort=activity&site=stackoverflow'
@@ -16,7 +15,6 @@ url = {
     'question': 'https://api.stackexchange.com/2.2/questions/{}?order=desc&sort=activity&site=stackoverflow',
     'answer': 'https://api.stackexchange.com/2.2/answers/{}?order=desc&sort=activity&site=stackoverflow&filter=!-*jbN.OXJB.4'
 }
-
 
 soup = BeautifulSoup(requests.get(repo).text, 'lxml')
 
@@ -31,7 +29,7 @@ df = pd.DataFrame([
       for p in data if p['owner']['display_name'] == username
     ]
 )
-# Get my answers to my question.
+# Get the answers to all my questions.
 canonq_answers = (df.query('type == "question"')['post_id']
                     .astype(int)
                     .add(1)
