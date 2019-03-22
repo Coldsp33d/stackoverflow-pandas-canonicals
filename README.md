@@ -110,5 +110,8 @@ Interesting alternative to `transform` using map
 - [Get last “column” after .str.split() operation on column in pandas DataFrame](https://stackoverflow.com/a/54457389/4909087)    
 Vectorized string and list comprehension methods.
 
+- [How to rename a pandas Series?](https://stackoverflow.com/questions/18553503/how-to-rename-a-pandas-series-object/55295478#55295478)
+Add information on the `rename()` function for method chaining. (Note: The name of a Series is analogous to the header of a DataFrame columns.)
+
 
 - (Python question) [Check if something is not in a list in Python](https://stackoverflow.com/a/54437309/4909087)
