@@ -9,7 +9,7 @@ user_id = '4909087'
 user_url = f'https://api.stackexchange.com/2.2/users/{user_id}?order=desc&sort=reputation&site=stackoverflow'
 username = requests.get(user_url).json()['items'][0]['display_name']
 
-repo = 'https://github.com/Coldsp33d/stackoverflow-pandas-canonicals/blob/master/README.md'
+repo = 'https://github.com/Coldsp33d/stackoverflow-pandas-canonicals/blob/Coldsp33d-patch-1/README.md'
 posts_url = 'https://api.stackexchange.com/2.2/posts/{}?order=desc&sort=activity&site=stackoverflow'
 url = {
     'question': 'https://api.stackexchange.com/2.2/questions/{}?order=desc&sort=activity&site=stackoverflow',
@@ -20,7 +20,9 @@ soup = BeautifulSoup(requests.get(repo).text, 'lxml')
 
 ids = set()
 for tag in soup.find_all(href=re.compile('stackoverflow.com/.*')):
-    ids = ids.union(re.findall(rf"(?:(?<=^)|(?<=\D))(?!{user_id})\d+(?=\D|$)", tag['href']))
+    ids = ids.union(re.findall(r"\b\d+\b", tag['href']))
+
+ids -= {user_id}
 
 
 data = requests.get(posts_url.format(';'.join(ids))).json()['items']
@@ -61,19 +63,16 @@ print(df.merge(pd.DataFrame(data), on='post_id')
 """
               type                                               link  score                                              title
 post_id                                                                                                                        
-53645883    answer  https://stackoverflow.com/questions/53645882/p...    161                                 Pandas Merging 101
-54028200    answer  https://stackoverflow.com/questions/54028199/f...     71        For loops with pandas - When should I care?
+53645883    answer  https://stackoverflow.com/questions/53645882/p...    162                                 Pandas Merging 101
+54028200    answer  https://stackoverflow.com/questions/54028199/f...     73        For loops with pandas - When should I care?
 53954986    answer  https://stackoverflow.com/questions/20625582/h...     45  How to deal with SettingWithCopyWarning in Pan...
-50444347    answer  https://stackoverflow.com/questions/50444346/f...     44               Fast punctuation removal with pandas
+50444347    answer  https://stackoverflow.com/questions/50444346/f...     45               Fast punctuation removal with pandas
 53779987    answer  https://stackoverflow.com/questions/53779986/d...     35  Dynamic Expression Evaluation in pandas using ...
 ...
+53645882  question  https://stackoverflow.com/questions/53645882/p...    139                                 Pandas Merging 101
+54028199  question  https://stackoverflow.com/questions/54028199/f...     60        For loops with pandas - When should I care?
+50444346  question  https://stackoverflow.com/questions/50444346/f...     46               Fast punctuation removal with pandas
+53927460  question  https://stackoverflow.com/questions/53927460/s...     34         Select rows in pandas MultiIndex DataFrame
+53779986  question  https://stackoverflow.com/questions/53779986/d...     32  Dynamic Expression Evaluation in pandas using ...
+...
 """
-
-
-
-
-
-
-
-
-
