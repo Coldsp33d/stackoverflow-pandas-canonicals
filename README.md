@@ -119,4 +119,5 @@ Address alternative implications of the title; alternative methods to `str.conta
 - [How do I get the row count of a Pandas dataframe?](https://stackoverflow.com/a/55435185)      
 Juxtapose various operations against their recommended methods, in tabular format.
 
-- (Python question) [Check if something is not in a list in Python](https://stackoverflow.com/a/54437309)
+- [What is the performance impact of non-unique indexes in pandas?](https://stackoverflow.com/a/54317984)        
+Measuring the impact of sorted order and uniqueness in pandas indexes.
