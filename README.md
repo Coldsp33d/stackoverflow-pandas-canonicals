@@ -116,5 +116,7 @@ Add information on the `rename()` function for method chaining. (Note: The name 
 - [Select by partial string from a pandas DataFrame](https://stackoverflow.com/a/55335207)      
 Address alternative implications of the title; alternative methods to `str.contains`; performance comparison.
 
+- [How do I get the row count of a Pandas dataframe?](https://stackoverflow.com/a/55435185)      
+Juxtapose various operations against their recommended methods, in tabular format.
 
 - (Python question) [Check if something is not in a list in Python](https://stackoverflow.com/a/54437309)
