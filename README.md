@@ -107,9 +107,6 @@ Draw a distinction between cheaper in-place assignment v/s copy in method chaini
 - [Python Pandas Create New Column with Groupby().Sum()](https://stackoverflow.com/a/54417351)    
 Interesting alternative to `transform` using map
 
-- [Get last “column” after .str.split() operation on column in pandas DataFrame](https://stackoverflow.com/a/54457389)    
-Vectorized string and list comprehension methods.
-
 - [How to rename a pandas Series?](https://stackoverflow.com/a/55295478)    
 Add information on the `rename()` function for method chaining. (Note: The name of a Series is analogous to the header of a DataFrame columns.)
 
