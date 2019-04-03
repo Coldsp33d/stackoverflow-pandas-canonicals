@@ -118,3 +118,16 @@ Juxtapose various operations against their recommended methods, in tabular forma
 
 - [What is the performance impact of non-unique indexes in pandas?](https://stackoverflow.com/a/54317984)        
 Measuring the impact of sorted order and uniqueness in pandas indexes.
+
+- [Rename a specific column in pandas](https://stackoverflow.com/a/46146667)    
+More info on `rename` (with new `axis` parameter), `str.replace`, and `set_axis`
+
+- [How to get number of groups in a groupby object in pandas?](https://stackoverflow.com/a/46512052)      
+
+- [Convert pandas.Series from dtype object to float, and errors to nans](https://stackoverflow.com/a/47942854)      
+Canonical on `pd.to_numeric` with Series and DataFrame objects.
+
+- [How to replace values with None in Pandas data frame in Python?](https://stackoverflow.com/a/55469393)        
+Nipping the problem at the bud: Read invalid values as NaN using the `na_values` attribute with the `read_csv` family of functions.
+
+
