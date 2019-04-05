@@ -40,7 +40,7 @@ Details the causes and fixes (good, and bad) for the `SettingWithCopyWarning` in
 How to set the index of a DataFrame to something else.
 
 - [String concatenation of two pandas columns](https://stackoverflow.com/a/54298586)    
-Joining two pandas string columns (with separator), with performance comparison.
+Various methods of joining two pandas string columns (with separator), with timings.
 
 - [Find the max of two or more columns with pandas](https://stackoverflow.com/a/54299629)    
 Fast NumPy solutions for finding the row-wise max.
@@ -60,7 +60,7 @@ Dropping duplicate columns with the same name.
 - [Remove unwanted parts from strings in a column](https://stackoverflow.com/a/54302517)    
 Removing substrings using a pattern or regex.
 
-- [GroupBy pandas DataFrame and select most common value](https://stackoverflow.com/a/54304691)    
+- [GroupBy pandas DataFrame and select most common value](https://stackoverflow.com/a)    
 Find the mode using pandas GroupBy. Recent versions allow you to use `pd.Series.mode`.
 
 - [Select rows by partial string match in index](https://stackoverflow.com/a/54314677)    
@@ -129,5 +129,11 @@ Canonical on `pd.to_numeric` with Series and DataFrame objects.
 
 - [How to replace values with None in Pandas data frame in Python?](https://stackoverflow.com/a/55469393)        
 Nipping the problem at the bud: Read invalid values as NaN using the `na_values` attribute with the `read_csv` family of functions.
+
+- [Get list from pandas DataFrame column headers](https://stackoverflow.com/a/55491499/4909087)    
+Added some concise solutions that use iterable unpacking (introduced in python3.5).
+
+- [Get first letter of a string from column](https://stackoverflow.com/a/55532764)        
+Canonicalized version of accepted answer with timings.
 
 
