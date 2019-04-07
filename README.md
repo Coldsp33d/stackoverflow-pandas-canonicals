@@ -31,6 +31,9 @@ A brief primer on the `eval` and `query` family of functions and how they can ef
 ### Comprehensive Answers to Older Questions
 Upto date answers to old questions, also appropriate as closure targets.
 
+- [How to implement 'in' and 'not in' for Pandas dataframe](https://stackoverflow.com/a/55554709)
+More details; `isin` on multiple columns; alternatives.
+
 - [How to deal with SettingWithCopyWarning in Pandas?](https://stackoverflow.com/a/53954986)    
 Details the causes and fixes (good, and bad) for the `SettingWithCopyWarning` in pandas. 
 
