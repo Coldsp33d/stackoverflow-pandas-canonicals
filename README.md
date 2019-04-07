@@ -31,6 +31,12 @@ A brief primer on the `eval` and `query` family of functions and how they can ef
 ### Comprehensive Answers to Older Questions
 Upto date answers to old questions, also appropriate as closure targets.
 
+- [Get statistics for each group (such as count, mean, etc) using pandas GroupBy?](https://stackoverflow.com/a/55564299)    
+Updated to include `describe`.
+
+- [How to iterate over rows in a DataFrame in Pandas?](https://stackoverflow.com/a/55557758)       
+Answer: Don't.
+
 - [How to implement 'in' and 'not in' for Pandas dataframe](https://stackoverflow.com/a/55554709)    
 More details; `isin` on multiple columns; alternatives.
 
