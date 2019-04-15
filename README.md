@@ -69,7 +69,7 @@ Dropping duplicate columns with the same name.
 - [Remove unwanted parts from strings in a column](https://stackoverflow.com/a/54302517)    
 Removing substrings using a pattern or regex.
 
-- [GroupBy pandas DataFrame and select most common value](https://stackoverflow.com/a)    
+- [GroupBy pandas DataFrame and select most common value](https://stackoverflow.com/a/54304691)    
 Find the mode using pandas GroupBy. Recent versions allow you to use `pd.Series.mode`.
 
 - [Select rows by partial string match in index](https://stackoverflow.com/a/54314677)    
