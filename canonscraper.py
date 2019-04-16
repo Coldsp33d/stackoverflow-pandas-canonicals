@@ -10,7 +10,7 @@ user_url = f'https://api.stackexchange.com/2.2/users/{user_id}?order=desc&sort=r
 username = requests.get(user_url).json()['items'][0]['display_name']
 
 repo = 'https://github.com/Coldsp33d/stackoverflow-pandas-canonicals/blob/master/README.md'
-posts_url = 'https://api.stackexchange.com/2.2/posts/{}?order=desc&sort=activity&site=stackoverflow'
+posts_url = 'https://api.stackexchange.com/2.2/posts/{}?pagesize=100&order=desc&sort=votes&site=stackoverflow'
 url = {
     'question': 'https://api.stackexchange.com/2.2/questions/{}?order=desc&sort=activity&site=stackoverflow',
     'answer': 'https://api.stackexchange.com/2.2/answers/{}?order=desc&sort=activity&site=stackoverflow&filter=!-*jbN.OXJB.4'
