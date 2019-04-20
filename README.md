@@ -1,13 +1,13 @@
 A compilation of all my canonical posts and answers to old questions on Stack Overflow, in no particular order.
 
 
-### Canonicals
+## Canonicals
 Meant to serve as duplicate targets for new questions.
 
-- [Pandas Merging 101](https://stackoverflow.com/questions/53645882/pandas-merging-101)        
+- [Pandas Merging 101](https://stackoverflow.com/questions/53645882/pandas-merging-101) 
 A primer on merging.
 
-- [How do I slice or filter MultiIndex DataFrame levels?](https://stackoverflow.com/questions/53927460/select-rows-in-pandas-multiindex-dataframe)     
+- [How do I slice or filter MultiIndex DataFrame levels?](https://stackoverflow.com/questions/53927460/select-rows-in-pandas-multiindex-dataframe)    
 A brief writeup on how to filter MultiIndex DataFrame index or columns by label, slice, etc.
 
 - [Performant cartesian product (CROSS JOIN) with pandas](https://stackoverflow.com/questions/53699012/performant-cartesian-product-cross-join-with-pandas)     
@@ -16,7 +16,7 @@ Performant alternatives for performing a cartesian product with pandas.
 - [Fast punctuation removal with pandas](https://stackoverflow.com/questions/50444346/fast-punctuation-removal-with-pandas)     
 Removing punctuation from string columns using python's silver bullet - `str.translate`.
 
-### Lemmas
+## Lemmas
 Augmenting your answers with helpful information without having to repeat yourself every time.
 
 - [For loops with pandas - When should I care?](https://stackoverflow.com/questions/54028199/for-loops-with-pandas-when-should-i-care)     
@@ -28,7 +28,7 @@ Understanding when apply is bad and when it is not. See both answers for the ful
 - [Dynamic Expression Evaluation in pandas using pd.eval()](https://stackoverflow.com/questions/53779986/dynamic-expression-evaluation-in-pandas-using-pd-eval)     
 A brief primer on the `eval` and `query` family of functions and how they can effectively be used for dynamically evaluating expressions.
 
-### Comprehensive Answers to Older Questions
+## Comprehensive Answers to Older Questions
 Upto date answers to old questions, also appropriate as closure targets.
 
 - [Get statistics for each group (such as count, mean, etc) using pandas GroupBy?](https://stackoverflow.com/a/55564299)    
@@ -44,9 +44,6 @@ More details; `isin` on multiple columns; alternatives.
 Details the causes and fixes (good, and bad) for the `SettingWithCopyWarning` in pandas. 
 
 - [Convert list of dictionaries to a pandas DataFrame](https://stackoverflow.com/a/53831756)    
-
-- [Redefining the Index in a Pandas DataFrame object](https://stackoverflow.com/a/54297213)    
-How to set the index of a DataFrame to something else.
 
 - [String concatenation of two pandas columns](https://stackoverflow.com/a/54298586)    
 Various methods of joining two pandas string columns (with separator), with timings.
@@ -78,8 +75,6 @@ Details string methods that are available for `Index` objects.
 
 - [Deleting all columns except a few](https://stackoverflow.com/a/54315757)    
 
-- [Replace string/value in entire DataFrame](https://stackoverflow.com/a/54322615)    
-Faster alternatives to `DataFrame.replace`.
 
 - [How do I get a DataFrame Index / Series column as an array or list?](https://stackoverflow.com/a/54324513)      
 Extract the underlying NumPy array or list from a Series/Index — Updated for the latest version of pandas (using `array` and `to_numpy()`).
