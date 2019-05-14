@@ -31,6 +31,9 @@ A brief primer on the `eval` and `query` family of functions and how they can ef
 ### Comprehensive Answers to Older Questions
 Upto date answers to old questions, also appropriate as closure targets.
 
+- [How to lowercase a pandas dataframe string column if it has missing values?](https://stackoverflow.com/a/56084317/4909087)    
+Update to use `str.casefold` from v0.25 onwards.
+
 - [Get statistics for each group (such as count, mean, etc) using pandas GroupBy?](https://stackoverflow.com/a/55564299)    
 Updated to include `describe`.
 
@@ -81,7 +84,7 @@ Details string methods that are available for `Index` objects.
 - [Replace string/value in entire DataFrame](https://stackoverflow.com/a/54322615)    
 Faster alternatives to `DataFrame.replace`.
 
-- [How do I get a DataFrame Index / Series column as an array or list?](https://stackoverflow.com/a/54324513)      
+- [How do I convert a pandas column or index to a Numpy array?](https://stackoverflow.com/a/54324513)      
 Extract the underlying NumPy array or list from a Series/Index — Updated for the latest version of pandas (using `array` and `to_numpy()`).
 
 - [Convert pandas dataframe to NumPy array](https://stackoverflow.com/a/54508052)        
