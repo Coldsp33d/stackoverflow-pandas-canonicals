@@ -79,7 +79,7 @@ Details string methods that are available for `Index` objects.
 - [Deleting all columns except a few](https://stackoverflow.com/a/54315757)    
 
 
-- [How do I convert a pandas column or index to a Numpy array?](https://stackoverflow.com/a/54324513)      
+- [How do I get a DataFrame Index / Series column as an array or list?](https://stackoverflow.com/a/54324513)      
 Extract the underlying NumPy array or list from a Series/Index — Updated for the latest version of pandas (using `array` and `to_numpy()`).
 
 - [Convert pandas dataframe to NumPy array](https://stackoverflow.com/a/54508052)        
