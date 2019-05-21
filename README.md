@@ -4,7 +4,7 @@ A compilation of all my canonical posts and answers to old questions on Stack Ov
 ## Canonicals
 Meant to serve as duplicate targets for new questions.
 
-- [Pandas Merging 101](https://stackoverflow.com/questions/53645882/pandas-merging-101) 
+- [Pandas Merging 101](https://stackoverflow.com/questions/53645882/pandas-merging-101)      
 A primer on merging.
 
 - [How do I slice or filter MultiIndex DataFrame levels?](https://stackoverflow.com/questions/53927460/select-rows-in-pandas-multiindex-dataframe)    
@@ -30,6 +30,15 @@ A brief primer on the `eval` and `query` family of functions and how they can ef
 
 ## Comprehensive Answers to Older Questions
 Upto date answers to old questions, also appropriate as closure targets.
+
+- [Writing a pandas DataFrame to CSV file](https://stackoverflow.com/a/56241457/4909087)    
+A description of some of the most important arguments of `DataFrame.to_csv` and when to use them.
+
+- [Python pandas groupby object apply method duplicates first group](https://stackoverflow.com/a/56215416/4909087)        
+Updated answer for v0.25 - `GroupBy.apply` no longer does this.
+
+- [Read CSV file as a pandas DataFrame](https://stackoverflow.com/a/56231664/4909087)    
+A description of some of the most important arguments of `pd.read_csv` and when to use them.
 
 - [How to lowercase a pandas dataframe string column if it has missing values?](https://stackoverflow.com/a/56084317/4909087)    
 Update to use `str.casefold` from v0.25 onwards.
