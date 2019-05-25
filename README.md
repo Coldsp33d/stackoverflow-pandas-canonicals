@@ -31,13 +31,19 @@ A brief primer on the `eval` and `query` family of functions and how they can ef
 ## Comprehensive Answers to Older Questions
 Upto date answers to old questions, also appropriate as closure targets.
 
+- [Add a header row to a pandas DataFrame](https://stackoverflow.com/a/56286649/4909087)    
+Add header to a DataFrame when 1) there are no headers, or 2) when there is an existing header but you'd like to add an additional level.
+
+- [Delete column from pandas DataFrame](https://stackoverflow.com/a/56278315/4909087)        
+Dropping columns has been discussed ad nauseam, so I've only written an answer on dropping the same column name from a list of DataFrames.
+
 - [Writing a pandas DataFrame to CSV file](https://stackoverflow.com/a/56241457/4909087)    
 A description of some of the most important arguments of `DataFrame.to_csv` and when to use them.
 
-- [Python pandas groupby object apply method duplicates first group](https://stackoverflow.com/a/56215416/4909087)        
+- [Pandas GroupBy.apply method duplicates first group](https://stackoverflow.com/a/56215416/4909087)        
 Updated answer for v0.25 - `GroupBy.apply` no longer does this.
 
-- [Read CSV file as a pandas DataFrame](https://stackoverflow.com/a/56231664/4909087)    
+- [Import CSV file as a pandas DataFrame](https://stackoverflow.com/a/56231664/4909087)    
 A description of some of the most important arguments of `pd.read_csv` and when to use them.
 
 - [How to lowercase a pandas dataframe string column if it has missing values?](https://stackoverflow.com/a/56084317/4909087)    
