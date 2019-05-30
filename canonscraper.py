@@ -13,7 +13,7 @@ repo = 'https://github.com/Coldsp33d/stackoverflow-pandas-canonicals/blob/master
 posts_url = 'https://api.stackexchange.com/2.2/posts/{}?pagesize=100&order=desc&sort=votes&site=stackoverflow'
 url = {
     'question': 'https://api.stackexchange.com/2.2/questions/{}?order=desc&sort=activity&site=stackoverflow',
-    'answer': 'https://api.stackexchange.com/2.2/answers/{}?order=desc&sort=activity&site=stackoverflow&filter=!-*jbN.OXJB.4'
+    'answer': 'https://api.stackexchange.com/2.2/answers/{}?order=desc&sort=activity&site=stackoverflow&filter=!-*jbN.OXJB.4&pagesize=100'
 }
 
 soup = BeautifulSoup(requests.get(repo).text, 'lxml')
