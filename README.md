@@ -31,6 +31,9 @@ A brief primer on the `eval` and `query` family of functions and how they can ef
 ## Comprehensive Answers to Older Questions
 Upto date answers to old questions, also appropriate as closure targets.
 
+- [Difference between map, applymap and apply methods in Pandas](https://stackoverflow.com/a/56300992/4909087)    
+A table detailing some of the most important differences between the 3 functions.
+
 - [Add a header row to a pandas DataFrame](https://stackoverflow.com/a/56286649/4909087)    
 Add header to a DataFrame when 1) there are no headers, or 2) when there is an existing header but you'd like to add an additional level.
 
