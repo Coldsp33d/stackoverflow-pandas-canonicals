@@ -19,6 +19,9 @@ Removing punctuation from string columns using python's silver bullet - `str.tra
 ## Lemmas
 Augmenting your answers with helpful information without having to repeat yourself every time.
 
+- [How to iterate over rows in a DataFrame in Pandas?](https://stackoverflow.com/a/55557758)       
+Answer: Don't.
+
 - [For loops with pandas - When should I care?](https://stackoverflow.com/questions/54028199/for-loops-with-pandas-when-should-i-care)     
 A brief writeup about the situations where for loops and iterative routines outperform pandas.
 
@@ -54,9 +57,6 @@ Update to use `str.casefold` from v0.25 onwards.
 
 - [Get statistics for each group (such as count, mean, etc) using pandas GroupBy?](https://stackoverflow.com/a/55564299)    
 Updated to include `describe`.
-
-- [How to iterate over rows in a DataFrame in Pandas?](https://stackoverflow.com/a/55557758)       
-Answer: Don't.
 
 - [How to implement 'in' and 'not in' for Pandas dataframe](https://stackoverflow.com/a/55554709)    
 More details; `isin` on multiple columns; alternatives.
@@ -97,7 +97,7 @@ Details string methods that are available for `Index` objects.
 - [Deleting all columns except a few](https://stackoverflow.com/a/54315757)    
 
 
-- [How do I get a DataFrame Index / Series column as an array or list?](https://stackoverflow.com/a/54324513)      
+- [How do I convert a pandas column or index to a Numpy array?](https://stackoverflow.com/a/54324513)      
 Extract the underlying NumPy array or list from a Series/Index — Updated for the latest version of pandas (using `array` and `to_numpy()`).
 
 - [Convert pandas dataframe to NumPy array](https://stackoverflow.com/a/54508052)        
