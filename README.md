@@ -34,6 +34,12 @@ A brief primer on the `eval` and `query` family of functions and how they can ef
 ## Comprehensive Answers to Older Questions
 Upto date answers to old questions, also appropriate as closure targets.
 
+- [How to check if any value is NaN in a Pandas DataFrame](https://stackoverflow.com/a/53862445/4909087)    
+Some extra options. Also includes `isna().any(axis=None)` (introduced in v0.23).
+
+- [Find row where values for column is maximal in a pandas DataFrame](https://stackoverflow.com/a/56503371/4909087)       
+Examples of how to retrieve maximal label as well as position.
+
 - [Difference between map, applymap and apply methods in Pandas](https://stackoverflow.com/a/56300992/4909087)    
 A table detailing some of the most important differences between the 3 functions.
 
