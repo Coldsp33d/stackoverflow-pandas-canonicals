@@ -16,6 +16,9 @@ Performant alternatives for performing a cartesian product with pandas.
 - [Fast punctuation removal with pandas](https://stackoverflow.com/questions/50444346/fast-punctuation-removal-with-pandas)     
 Removing punctuation from string columns using python's silver bullet - `str.translate`.
 
+- [What is the difference between Series.replace and Series.str.replace?])(https://stackoverflow.com/questions/56625031/what-is-the-difference-between-series-replace-and-series-str-replace)    
+Discuss the three main differences between `replace()` and `str.replace()`. 
+
 ## Lemmas
 Augmenting your answers with helpful information without having to repeat yourself every time.
 
@@ -34,10 +37,13 @@ A brief primer on the `eval` and `query` family of functions and how they can ef
 ## Comprehensive Answers to Older Questions
 Upto date answers to old questions, also appropriate as closure targets.
 
+- [How to get rid of “Unnamed: 0” column in a pandas DataFrame?](https://stackoverflow.com/a/54358758/4909087)      
+Additional options, how to avoid having this problem manifest (don't save a `RangeIndex` to a CSV).
+
 - [How to check if any value is NaN in a Pandas DataFrame](https://stackoverflow.com/a/53862445/4909087)    
 Some extra options. Also includes `isna().any(axis=None)` (introduced in v0.23).
 
-- [Find row where values for column is maximal in a pandas DataFrame](https://stackoverflow.com/a/56503371/4909087)       
+- [Find row where values for column is maximal in a pandas DataFrame](https://stackoverflow.com/a/56503371/4909087)             
 Examples of how to retrieve maximal label as well as position.
 
 - [Difference between map, applymap and apply methods in Pandas](https://stackoverflow.com/a/56300992/4909087)    
