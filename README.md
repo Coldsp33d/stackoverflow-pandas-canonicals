@@ -16,7 +16,7 @@ Performant alternatives for performing a cartesian product with pandas.
 - [Fast punctuation removal with pandas](https://stackoverflow.com/questions/50444346/fast-punctuation-removal-with-pandas)     
 Removing punctuation from string columns using python's silver bullet - `str.translate`.
 
-- [What is the difference between Series.replace and Series.str.replace?])(https://stackoverflow.com/questions/56625031/what-is-the-difference-between-series-replace-and-series-str-replace)    
+- [What is the difference between Series.replace and Series.str.replace?](https://stackoverflow.com/questions/56625031/what-is-the-difference-between-series-replace-and-series-str-replace)    
 Discuss the three main differences between `replace()` and `str.replace()`. 
 
 ## Lemmas
