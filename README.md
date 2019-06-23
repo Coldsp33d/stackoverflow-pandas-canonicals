@@ -37,6 +37,9 @@ A brief primer on the `eval` and `query` family of functions and how they can ef
 ## Comprehensive Answers to Older Questions
 Upto date answers to old questions, also appropriate as closure targets.
 
+- [Drop rows containing empty cells from a pandas DataFrame](https://stackoverflow.com/a/56708633/4909087)        
+Boolean falsy filtering method, with performance comparison. `df[df['col'].astype(bool)]` happens to be faster than `df.replace({'col': {'': np.nan}}).dropna(subset=['col'])`.
+
 - [How to get rid of “Unnamed: 0” column in a pandas DataFrame?](https://stackoverflow.com/a/54358758/4909087)      
 Additional options, how to avoid having this problem manifest (don't save a `RangeIndex` to a CSV).
 
