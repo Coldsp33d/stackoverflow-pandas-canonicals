@@ -22,6 +22,9 @@ Discuss the three main differences between `replace()` and `str.replace()`.
 ## Lemmas
 Augmenting your answers with helpful information without having to repeat yourself every time.
 
+- [Creating an empty Pandas DataFrame, then filling it?](https://stackoverflow.com/a/56746204/4909087)    
+I explain why this is a bad thing, and what you should instead be doing when initialising a DataFrame from ground-up.
+
 - [How to iterate over rows in a DataFrame in Pandas?](https://stackoverflow.com/a/55557758)       
 Answer: Don't.
 
