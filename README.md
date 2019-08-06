@@ -43,6 +43,9 @@ Upto date answers to old questions, also appropriate as closure targets.
 - [Split (explode) pandas dataframe string entry to separate rows](https://stackoverflow.com/a/57122617/4909087) and [Pandas column of lists, create a row for each list element](https://stackoverflow.com/a/57122831/4909087)    
 Introducing the new `df.explode()` function (pandas >= 0.25) for exploding a column of lists into multiple rows!
 
+- [Multiple aggregations of the same column using pandas GroupBy.agg()](https://stackoverflow.com/a/54300159)         
+How to perform multiple aggregations of the same column inside GroupBy.agg, and how to rename the output columns using the new Named Aggregation API (pandas >= 0.25). 
+
 - [Drop rows containing empty cells from a pandas DataFrame](https://stackoverflow.com/a/56708633/4909087)        
 Boolean falsy filtering method, with performance comparison. `df[df['col'].astype(bool)]` happens to be faster than `df.replace({'col': {'': np.nan}}).dropna(subset=['col'])`.
 
@@ -97,10 +100,6 @@ Fast NumPy solutions for finding the row-wise max.
 
 
 - [Sorting by absolute value without changing the data](https://stackoverflow.com/a/54299995)    
-
-
-- [Multiple aggregations of the same column using pandas GroupBy.agg()](https://stackoverflow.com/a/54300159)    
-How to perform multiple aggregations of the same column inside GroupBy.agg, and how to rename the output columns.
 
 - [Combine duplicated columns within a DataFrame](https://stackoverflow.com/a/54300430)    
 Dropping duplicate columns with the same name. 
