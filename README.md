@@ -40,6 +40,9 @@ A brief primer on the `eval` and `query` family of functions and how they can ef
 ## Comprehensive Answers to Older Questions
 Upto date answers to old questions, also appropriate as closure targets.
 
+- [Split (explode) pandas dataframe string entry to separate rows](https://stackoverflow.com/a/57122617/4909087) and [Pandas column of lists, create a row for each list element](https://stackoverflow.com/a/57122831/4909087)    
+Introducing the new `df.explode()` function (pandas >= 0.25) for exploding a column of lists into multiple rows!
+
 - [Drop rows containing empty cells from a pandas DataFrame](https://stackoverflow.com/a/56708633/4909087)        
 Boolean falsy filtering method, with performance comparison. `df[df['col'].astype(bool)]` happens to be faster than `df.replace({'col': {'': np.nan}}).dropna(subset=['col'])`.
 
