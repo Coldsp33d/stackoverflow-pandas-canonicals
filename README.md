@@ -55,17 +55,8 @@ Additional options, how to avoid having this problem manifest (don't save a `Ran
 - [How to check if any value is NaN in a Pandas DataFrame](https://stackoverflow.com/a/53862445/4909087)    
 Some extra options. Also includes `isna().any(axis=None)` (introduced in v0.23).
 
-- [Find row where values for column is maximal in a pandas DataFrame](https://stackoverflow.com/a/56503371/4909087)             
-Examples of how to retrieve maximal label as well as position.
-
 - [Difference between map, applymap and apply methods in Pandas](https://stackoverflow.com/a/56300992/4909087)    
 A table detailing some of the most important differences between the 3 functions.
-
-- [Add a header row to a pandas DataFrame](https://stackoverflow.com/a/56286649/4909087)    
-Add header to a DataFrame when 1) there are no headers, or 2) when there is an existing header but you'd like to add an additional level.
-
-- [Delete column from pandas DataFrame](https://stackoverflow.com/a/56278315/4909087)        
-Dropping columns has been discussed ad nauseam, so I've only written an answer on dropping the same column name from a list of DataFrames.
 
 - [Writing a pandas DataFrame to CSV file](https://stackoverflow.com/a/56241457/4909087)    
 A description of some of the most important arguments of `DataFrame.to_csv` and when to use them.
@@ -129,9 +120,6 @@ Similar to above, use `to_numpy()`.
 - [Selecting columns from pandas MultiIndex](https://stackoverflow.com/a/54337009)    
 Label based selection on columns.
 
-- [Get particular row as series from pandas dataframe](https://stackoverflow.com/a/54344511)    
-The most appropriate method of extracting a single row as a Series.
-
 - [Logical operators for boolean indexing in Pandas](https://stackoverflow.com/a/54358361)    
 Explanation of vectorized `and`, `or`, `not` in pandas.
 
@@ -151,9 +139,6 @@ Draw a distinction between cheaper in-place assignment v/s copy in method chaini
 
 - [Python Pandas Create New Column with Groupby().Sum()](https://stackoverflow.com/a/54417351)    
 Interesting alternative to `transform` using map
-
-- [How to rename a pandas Series?](https://stackoverflow.com/a/55295478)    
-Add information on the `rename()` function for method chaining. (Note: The name of a Series is analogous to the header of a DataFrame columns.)
 
 - [Select by partial string from a pandas DataFrame](https://stackoverflow.com/a/55335207)      
 Address alternative implications of the title; alternative methods to `str.contains`; performance comparison.
