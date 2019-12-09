@@ -40,6 +40,9 @@ A brief primer on the `eval` and `query` family of functions and how they can ef
 ## Comprehensive Answers to Older Questions
 Upto date answers to old questions, also appropriate as closure targets.
 
+- [Understanding inplace=True](https://stackoverflow.com/a/59242208/4909087)     
+Explains what `inplace=True` is, what it does, and why it should be avoided.
+
 - [Split (explode) pandas dataframe string entry to separate rows](https://stackoverflow.com/a/57122617/4909087) and [Pandas column of lists, create a row for each list element](https://stackoverflow.com/a/57122831/4909087)    
 Introducing the new `df.explode()` function (pandas >= 0.25) for exploding a column of lists into multiple rows!
 
