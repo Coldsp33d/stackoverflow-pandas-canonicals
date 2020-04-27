@@ -40,6 +40,12 @@ A brief primer on the `eval` and `query` family of functions and how they can ef
 ## Comprehensive Answers to Older Questions
 Upto date answers to old questions, also appropriate as closure targets.
 
+- [Change data type of columns in Pandas](https://stackoverflow.com/a/60278450/4909087)    
+Updated for pandas 1.0, with a note on "hard" versus "soft" conversions. Hard conversions - convert text to other data type; soft conversions - infer more specific dtypes from object columns.
+
+- [Pretty Printing a pandas dataframe](https://stackoverflow.com/a/60202636/4909087)    
+New `df.to_markdown()` method (pandas >= 1.0) for rendering tables in markdown (github).
+
 - [Understanding inplace=True](https://stackoverflow.com/a/59242208/4909087) and [Pandas - is inplace = True considered harmful or not?](https://stackoverflow.com/q/45570984/4909087)    
 Explains what `inplace=True` is, what it does, and why it should be avoided.
 
