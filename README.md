@@ -40,7 +40,7 @@ A brief primer on the `eval` and `query` family of functions and how they can ef
 ## Comprehensive Answers to Older Questions
 Upto date answers to old questions, also appropriate as closure targets.
 
-- [Remove NaN/NULL columns in a Pandas dataframe?](https://stackoverflow.com/a/62444492/4909087)    
+- [Remove NaN/NULL columns in a Pandas dataframe?](https://stackoverflow.com/a/62444845/4909087)    
 `dropna` canonical! Compiled list of common `dropna` FAQs with solutions for all of them. 
 
 - [Add column of empty lists to DataFrame](https://stackoverflow.com/a/62141252/4909087)    
