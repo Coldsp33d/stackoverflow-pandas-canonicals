@@ -40,6 +40,16 @@ A brief primer on the `eval` and `query` family of functions and how they can ef
 ## Comprehensive Answers to Older Questions
 Upto date answers to old questions, also appropriate as closure targets.
 
+- [Remove NaN/NULL columns in a Pandas dataframe?](https://stackoverflow.com/a/62444492/4909087)    
+`dropna` canonical! Compiled list of common `dropna` FAQs with solutions for all of them. 
+
+- [Add column of empty lists to DataFrame](https://stackoverflow.com/a/62141252/4909087)    
+The DOs and DONTs of adding a column of empty lists to a DataFrame. Spoiler alert: Don't do this.
+
+- [GroupBy columns with NaN (missing) values](https://stackoverflow.com/a/61922965/4909087)       
+A new version 1.1 update allows you to use a column with NaNs as the grouper, without it needing to be dropped or filled.
+
+
 - [Change data type of columns in Pandas](https://stackoverflow.com/a/60278450/4909087)    
 Updated for pandas 1.0, with a note on "hard" versus "soft" conversions. Hard conversions - convert text to other data type; soft conversions - infer more specific dtypes from object columns.
 
