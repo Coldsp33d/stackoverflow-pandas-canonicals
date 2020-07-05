@@ -1,4 +1,4 @@
-A compilation of all my canonical posts and answers to old questions on Stack Overflow, in no particular order. Topic arrangement mirrors the [User Guide](https://pandas.pydata.org/pandas-docs/stable/user_guide/). 
+A compilation of all my canonical posts and answers to old questions on Stack Overflow. Topic arrangement mirrors the [User Guide](https://pandas.pydata.org/pandas-docs/stable/user_guide/). 
 
 If you found any of my content here helpful and wish to thank me, you can upvote my answer! (please don't serial upvote :-) If you'd like to do more, and have more than 75 reputation on Stack Overflow, please consider awarding me with a [bounty](https://stackoverflow.com/help/privileges/set-bounties). 
 
