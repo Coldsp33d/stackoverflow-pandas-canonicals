@@ -7,7 +7,6 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 - [Import CSV file as a pandas DataFrame](https://stackoverflow.com/a/56231664/4909087)  
 
 
-
 ## Indexing and selecting data
 - [How to implement 'in' and 'not in' for Pandas dataframe](https://stackoverflow.com/a/55554709)   
 - [Combine duplicated columns within a DataFrame](https://stackoverflow.com/a/54300430) 
@@ -15,21 +14,19 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 - [Deleting all columns except a few](https://stackoverflow.com/a/54315757)  
 
 
-
 ## MultiIndex / advanced indexing
 - [How do I slice or filter MultiIndex DataFrame levels?](https://stackoverflow.com/questions/53927460/select-rows-in-pandas-multiindex-dataframe)  
 - [Selecting columns from pandas MultiIndex](https://stackoverflow.com/a/54337009)
+- [Setting DataFrame column headers to a MultiIndex](https://stackoverflow.com/a/54335583) 
 
 
 ## Merge, join, and concatenate
 - [Pandas Merging 101](https://stackoverflow.com/questions/53645882/pandas-merging-101)     
   
 
-
 ## Reshaping and pivot tables
 - [Split (explode) pandas dataframe string entry to separate rows](https://stackoverflow.com/a/57122617/4909087)
 - [Pandas column of lists, create a row for each list element](https://stackoverflow.com/a/57122831/4909087)  
-
 
 
 ## Working with text data
@@ -41,31 +38,21 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 - [Get first letter of a string from column](https://stackoverflow.com/a/55532764)
 
 
-
 ## Working with missing data
-- [Remove NaN/NULL columns in a Pandas dataframe?](https://stackoverflow.com/a/62444845/4909087)  
+- [How to drop rows of Pandas DataFrame whose value in a certain column is NaN?](https://stackoverflow.com/a/62444845/4909087)  
 - [GroupBy columns with NaN (missing) values](https://stackoverflow.com/a/61922965/4909087) 
 - [How to check if any value is NaN in a Pandas DataFrame](https://stackoverflow.com/a/53862445/4909087)  
 - [Convert pandas.Series from dtype object to float, and errors to nans](https://stackoverflow.com/a/47942854)  
 - [How to replace values with None in Pandas data frame in Python?](https://stackoverflow.com/a/55469393) 
 
 
-
-
 ## Categorical data
-
-
 
 
 ## Nullable integer data type
 
 
-
-
 ## Nullable Boolean Data Type
-
-
-
 
 
 ## Visualization
@@ -73,12 +60,8 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 - [Pretty Printing a pandas dataframe](https://stackoverflow.com/a/60202636/4909087)
 
 
-
-
 ## Computational tools
  
-
-
 
 ## Group By: split-apply-combine
 - [Multiple aggregations of the same column using pandas GroupBy.agg()](https://stackoverflow.com/a/54300159)  
@@ -87,7 +70,6 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 - [GroupBy pandas DataFrame and select most common value](https://stackoverflow.com/a/54304691)    
 - [Python Pandas Create New Column with Groupby().Sum()](https://stackoverflow.com/a/54417351)   
 - [How to get number of groups in a groupby object in pandas?](https://stackoverflow.com/a/46512052)    
-
 
 
 ## Time series / date functionality
@@ -100,8 +82,6 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 
 
 ## Options and settings
-
-
 
 
 ## Performance 
@@ -135,7 +115,6 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 - [Sorting by absolute value without changing the data](https://stackoverflow.com/a/54299995)  
 - [How do I convert a pandas column or index to a Numpy array?](https://stackoverflow.com/a/54324513)  
 - [Convert pandas dataframe to NumPy array](https://stackoverflow.com/a/54508052)
-- [Setting DataFrame column headers to a MultiIndex](https://stackoverflow.com/a/54335583) 
 - [Logical operators for boolean indexing in Pandas](https://stackoverflow.com/a/54358361) 
 - [What is the difference between size and count in pandas?](https://stackoverflow.com/a/54364400)    
 - ['DataFrame' object has no attribute 'sort'](https://stackoverflow.com/a/54399214)
