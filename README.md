@@ -1,5 +1,7 @@
 A compilation of all my canonical posts and answers to old questions on Stack Overflow. Topic arrangement mirrors the [User Guide](https://pandas.pydata.org/pandas-docs/stable/user_guide/). 
 
+If you find any bugs, or need clarification, or see something that can be improved, please feel free to leave a comment under the answer and I'll typically respond within a day. 
+
 If you found any of my content here helpful and wish to thank me, you can upvote my answer! (please don't serial upvote :-) If you'd like to do more, and have more than 75 reputation on Stack Overflow, please consider awarding me with a [bounty](https://stackoverflow.com/help/privileges/set-bounties). 
 
 ## IO tools (text, CSV, HDF5, …)
