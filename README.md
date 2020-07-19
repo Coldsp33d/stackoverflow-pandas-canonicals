@@ -17,7 +17,8 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 ## MultiIndex / advanced indexing
 - [How do I slice or filter MultiIndex DataFrame levels?](https://stackoverflow.com/questions/53927460/select-rows-in-pandas-multiindex-dataframe)  
 - [Selecting columns from pandas MultiIndex](https://stackoverflow.com/a/54337009)
-- [Setting DataFrame column headers to a MultiIndex](https://stackoverflow.com/a/54335583) 
+- [Setting DataFrame column headers to a MultiIndex](https://stackoverflow.com/a/54335583)     
+- [Reorder levels of MultiIndex in a pandas DataFrame](https://stackoverflow.com/a/62746392/4909087)
 
 
 ## Merge, join, and concatenate
@@ -30,6 +31,7 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 
 
 ## Working with text data
+- [Convert Columns to String in Pandas](https://stackoverflow.com/a/62978895/4909087)    Introduce `"string"` dtype for pandas >= 1.0.
 - [Fast punctuation removal with pandas](https://stackoverflow.com/questions/50444346/fast-punctuation-removal-with-pandas)
 - [How to lowercase a pandas dataframe string column if it has missing values?](https://stackoverflow.com/a/56084317/4909087)    
 - [String concatenation of two pandas columns](https://stackoverflow.com/a/54298586)
@@ -123,6 +125,7 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 - [How do I get the row count of a Pandas dataframe?](https://stackoverflow.com/a/55435185)   
 - [Rename a specific column in pandas](https://stackoverflow.com/a/46146667)  
 - [Get list from pandas DataFrame column headers](https://stackoverflow.com/a/55491499/4909087)   
+- [Add one row to pandas DataFrame](https://stackoverflow.com/a/62734983/4909087)    
 
 
 ## Cookbook
