@@ -11,8 +11,7 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 
 ## Indexing and selecting data
 - [How to implement 'in' and 'not in' for Pandas dataframe](https://stackoverflow.com/a/55554709)   
-- [Combine duplicated columns within a DataFrame](https://stackoverflow.com/a/54300430) 
-- [Select rows by partial string match in index](https://stackoverflow.com/a/54314677)    
+- [Combine duplicated columns within a DataFrame](https://stackoverflow.com/a/54300430)      
 - [Deleting all columns except a few](https://stackoverflow.com/a/54315757)  
 
 
@@ -36,6 +35,7 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 - [Convert Columns to String in Pandas](https://stackoverflow.com/a/62978895/4909087)    Introduce `"string"` dtype for pandas >= 1.0.
 - [Fast punctuation removal with pandas](https://stackoverflow.com/questions/50444346/fast-punctuation-removal-with-pandas)
 - [How to lowercase a pandas dataframe string column if it has missing values?](https://stackoverflow.com/a/56084317/4909087)    
+
 - [String concatenation of two pandas columns](https://stackoverflow.com/a/54298586)
 - [Remove unwanted parts from strings in a column](https://stackoverflow.com/a/54302517)  
 - [Select by partial string from a pandas DataFrame](https://stackoverflow.com/a/55335207)  
@@ -115,7 +115,6 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 - [How to deal with SettingWithCopyWarning in Pandas?](https://stackoverflow.com/a/53954986)   
 - [Convert list of dictionaries to a pandas DataFrame](https://stackoverflow.com/a/53831756)    
 - [Find the max of two or more columns with pandas](https://stackoverflow.com/a/54299629) 
-- [Sorting a pandas series](https://stackoverflow.com/a/54299881) 
 - [Sorting by absolute value without changing the data](https://stackoverflow.com/a/54299995)  
 - [How do I convert a pandas column or index to a Numpy array?](https://stackoverflow.com/a/54324513)  
 - [Convert pandas dataframe to NumPy array](https://stackoverflow.com/a/54508052)
