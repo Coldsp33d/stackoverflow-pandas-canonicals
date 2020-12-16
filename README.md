@@ -23,8 +23,17 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 
 
 ## Merge, join, and concatenate
-- [Pandas Merging 101](https://stackoverflow.com/questions/53645882/pandas-merging-101)     
-  
+- **Pandas Merging 101**
+	- [Merging basics - basic types of joins](https://stackoverflow.com/a/53645883/4909087) (read this first)
+
+	- [Index-based joins](https://stackoverflow.com/a/65167356/4909087)
+
+	- [Generalizing to multiple DataFrames](https://stackoverflow.com/a/65167327/4909087)
+
+
+	- [Performant Cross join](https://stackoverflow.com/a/53699013/4909087)
+	  
+- [Cartesian Product in pandas](https://stackoverflow.com/a/65017552/4909087)
 
 ## Reshaping and pivot tables
 - [Split (explode) pandas dataframe string entry to separate rows](https://stackoverflow.com/a/57122617/4909087)
@@ -48,15 +57,16 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 - [How to check if any value is NaN in a Pandas DataFrame](https://stackoverflow.com/a/53862445/4909087)  
 - [Convert pandas.Series from dtype object to float, and errors to nans](https://stackoverflow.com/a/47942854)  
 - [How to replace values with None in Pandas data frame in Python?](https://stackoverflow.com/a/55469393) 
-
+- [Locate first and last non NaN values in a Pandas DataFrame](https://stackoverflow.com/a/56748194/4909087) - a discussion on `first_valid_index` and `last_valid_index`
 
 ## Categorical data
 
 
 ## Nullable integer data type
-
+- [Pandas: ValueError: cannot convert float NaN to integer](https://stackoverflow.com/a/55704512/4909087)
 
 ## Nullable Boolean Data Type
+- [Preserve NaN values in pandas boolean comparisons](https://stackoverflow.com/a/60203554/4909087)
 
 
 ## Visualization
@@ -77,7 +87,7 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 
 
 ## Time series / date functionality
-
+- [pandas datetime to unix timestamp seconds](https://stackoverflow.com/a/54313505/4909087)
 
 ## Time deltas
 
@@ -91,7 +101,7 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 ## Performance 
 - [For loops with pandas - When should I care?](https://stackoverflow.com/questions/54028199/for-loops-with-pandas-when-should-i-care) 
 - [Dynamic Expression Evaluation in pandas using pd.eval()](https://stackoverflow.com/questions/53779986/dynamic-expression-evaluation-in-pandas-using-pd-eval) 
-- [When should I ever want to use pandas apply() in my code?](https://stackoverflow.com/questions/54432583/when-should-i-ever-want-to-use-pandas-apply-in-my-code)  
+- [When should I (not) want to use pandas apply() in my code?](https://stackoverflow.com/questions/54432583/when-should-i-ever-want-to-use-pandas-apply-in-my-code)  
 - [Performant cartesian product (CROSS JOIN) with pandas](https://stackoverflow.com/questions/53699012/performant-cartesian-product-cross-join-with-pandas)  
 - [What is the performance impact of non-unique indexes in pandas?](https://stackoverflow.com/a/54317984)  
 
@@ -101,18 +111,30 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 
 ## Sparse data structures
 
+## Pandas Gotchas 
+
+- Don't iterate over a DataFrame!
+	- [How to iterate over rows in a DataFrame in Pandas?](https://stackoverflow.com/a/55557758) 
+
+- Never grow a DataFrame!
+	- [Creating an empty Pandas DataFrame, then filling it?](https://stackoverflow.com/a/56746204/4909087)
+	- [Add one row to pandas DataFrame](https://stackoverflow.com/a/62734983/4909087)   
+
+- Don't use `inplace=True`!
+	- [Understanding inplace=True](https://stackoverflow.com/a/59242208/4909087) 
+	- [Pandas - is inplace = True considered harmful or not?](https://stackoverflow.com/q/45570984/4909087) 
+
+- Good habits to build to avoid that dreaded `SettingWithCopyWarning`
+	- [How to deal with SettingWithCopyWarning in Pandas?](https://stackoverflow.com/a/53954986) 
 
 ## Frequently Asked Questions (FAQ)
 - [How to iterate over rows in a DataFrame in Pandas?](https://stackoverflow.com/a/55557758)   
 - [What is the difference between Series.replace and Series.str.replace?](https://stackoverflow.com/questions/56625031/what-is-the-difference-between-series-replace-and-series-str-replace)  
-- [Creating an empty Pandas DataFrame, then filling it?](https://stackoverflow.com/a/56746204/4909087)   
 - [Add column of empty lists to DataFrame](https://stackoverflow.com/a/62141252/4909087)  
 - [Change data type of columns in Pandas](https://stackoverflow.com/a/60278450/4909087)  
-- [Understanding inplace=True](https://stackoverflow.com/a/59242208/4909087) and - [Pandas - is inplace = True considered harmful or not?](https://stackoverflow.com/q/45570984/4909087)  
 - [Drop rows containing empty cells from a pandas DataFrame](https://stackoverflow.com/a/56708633/4909087)  
 - [How to get rid of “Unnamed: 0” column in a pandas DataFrame?](https://stackoverflow.com/a/54358758/4909087)  
 - [Difference between map, applymap and apply methods in Pandas](https://stackoverflow.com/a/56300992/4909087)  
-- [How to deal with SettingWithCopyWarning in Pandas?](https://stackoverflow.com/a/53954986)   
 - [Convert list of dictionaries to a pandas DataFrame](https://stackoverflow.com/a/53831756)    
 - [Find the max of two or more columns with pandas](https://stackoverflow.com/a/54299629) 
 - [Sorting by absolute value without changing the data](https://stackoverflow.com/a/54299995)  
@@ -126,7 +148,7 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 - [How do I get the row count of a Pandas dataframe?](https://stackoverflow.com/a/55435185)   
 - [Rename a specific column in pandas](https://stackoverflow.com/a/46146667)  
 - [Get list from pandas DataFrame column headers](https://stackoverflow.com/a/55491499/4909087)   
-- [Add one row to pandas DataFrame](https://stackoverflow.com/a/62734983/4909087)    
+ 
 
 
 ## Cookbook
