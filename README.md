@@ -4,6 +4,23 @@ If you find any bugs, or need clarification, or see something that can be improv
 
 If you found any of my content here helpful and wish to thank me, you can upvote my answer! (please don't serial upvote :-) If you'd like to do more, and have more than 75 reputation on Stack Overflow, please consider awarding me with a [bounty](https://stackoverflow.com/help/privileges/set-bounties). 
 
+## Pandas Gotchas 
+
+- Don't iterate over a DataFrame!
+	- [How to iterate over rows in a DataFrame in Pandas?](https://stackoverflow.com/a/55557758) 
+
+- Never grow a DataFrame!
+	- [Creating an empty Pandas DataFrame, then filling it?](https://stackoverflow.com/a/56746204/4909087)
+	- [Add one row to pandas DataFrame](https://stackoverflow.com/a/62734983/4909087)   
+
+- Good habits to build to avoid that dreaded `SettingWithCopyWarning`
+	- [How to deal with SettingWithCopyWarning in Pandas?](https://stackoverflow.com/a/53954986) 
+
+- Don't use `inplace=True`!
+	- [Understanding inplace=True](https://stackoverflow.com/a/59242208/4909087) 
+	- [Pandas - is inplace = True considered harmful or not?](https://stackoverflow.com/q/45570984/4909087) 
+
+
 ## IO tools (text, CSV, HDF5, …)
 - [Writing a pandas DataFrame to CSV file](https://stackoverflow.com/a/56241457/4909087)   
 - [Import CSV file as a pandas DataFrame](https://stackoverflow.com/a/56231664/4909087)  
@@ -110,22 +127,6 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 
 
 ## Sparse data structures
-
-## Pandas Gotchas 
-
-- Don't iterate over a DataFrame!
-	- [How to iterate over rows in a DataFrame in Pandas?](https://stackoverflow.com/a/55557758) 
-
-- Never grow a DataFrame!
-	- [Creating an empty Pandas DataFrame, then filling it?](https://stackoverflow.com/a/56746204/4909087)
-	- [Add one row to pandas DataFrame](https://stackoverflow.com/a/62734983/4909087)   
-
-- Don't use `inplace=True`!
-	- [Understanding inplace=True](https://stackoverflow.com/a/59242208/4909087) 
-	- [Pandas - is inplace = True considered harmful or not?](https://stackoverflow.com/q/45570984/4909087) 
-
-- Good habits to build to avoid that dreaded `SettingWithCopyWarning`
-	- [How to deal with SettingWithCopyWarning in Pandas?](https://stackoverflow.com/a/53954986) 
 
 ## Frequently Asked Questions (FAQ)
 - [How to iterate over rows in a DataFrame in Pandas?](https://stackoverflow.com/a/55557758)   
