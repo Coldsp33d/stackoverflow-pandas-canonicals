@@ -23,6 +23,8 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 
 
 ## IO tools (text, CSV, HDF5, …)
+
+- [How can I effectively load data on Stack Overflow questions using pandas read_clipboard?](https://stackoverflow.com/q/65379068/4909087)
 - [Writing a pandas DataFrame to CSV file](https://stackoverflow.com/a/56241457/4909087)   
 - [Import CSV file as a pandas DataFrame](https://stackoverflow.com/a/56231664/4909087) 
 - [How do I save multi-indexed pandas dataframes to parquet?](https://stackoverflow.com/a/65356509/4909087) 
@@ -32,7 +34,7 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 - [How to implement 'in' and 'not in' for Pandas dataframe](https://stackoverflow.com/a/55554709/4909087)   
 - [Combine duplicated columns within a DataFrame](https://stackoverflow.com/a/54300430/4909087)      
 - [Deleting all columns except a few](https://stackoverflow.com/a/54315757/4909087)  
-
+- [Right way to reverse a pandas DataFrame?](https://stackoverflow.com/a/65391420/4909087)
 
 ## MultiIndex / advanced indexing
 - [How do I slice or filter MultiIndex DataFrame levels?](https://stackoverflow.com/questions/53927460/select-rows-in-pandas-multiindex-dataframe)  
