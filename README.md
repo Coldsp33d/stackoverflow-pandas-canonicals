@@ -7,14 +7,15 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 ## Pandas Gotchas 
 
 - Don't iterate over a DataFrame!
-	- [How to iterate over rows in a DataFrame in Pandas?](https://stackoverflow.com/a/55557758) 
+	- [How to iterate over rows in a DataFrame in Pandas?](https://stackoverflow.com/a/55557758/4909087) 
+	- [Does pandas iterrows have performance issues?](https://stackoverflow.com/a/65356169/4909087)
 
 - Never grow a DataFrame!
 	- [Creating an empty Pandas DataFrame, then filling it?](https://stackoverflow.com/a/56746204/4909087)
 	- [Add one row to pandas DataFrame](https://stackoverflow.com/a/62734983/4909087)   
 
 - Good habits to build to avoid that dreaded `SettingWithCopyWarning`
-	- [How to deal with SettingWithCopyWarning in Pandas?](https://stackoverflow.com/a/53954986) 
+	- [How to deal with SettingWithCopyWarning in Pandas?](https://stackoverflow.com/a/53954986/4909087) 
 
 - Don't use `inplace=True`!
 	- [Understanding inplace=True](https://stackoverflow.com/a/59242208/4909087) 
@@ -23,19 +24,20 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 
 ## IO tools (text, CSV, HDF5, …)
 - [Writing a pandas DataFrame to CSV file](https://stackoverflow.com/a/56241457/4909087)   
-- [Import CSV file as a pandas DataFrame](https://stackoverflow.com/a/56231664/4909087)  
+- [Import CSV file as a pandas DataFrame](https://stackoverflow.com/a/56231664/4909087) 
+- [How do I save multi-indexed pandas dataframes to parquet?](https://stackoverflow.com/a/65356509/4909087) 
 
 
 ## Indexing and selecting data
-- [How to implement 'in' and 'not in' for Pandas dataframe](https://stackoverflow.com/a/55554709)   
-- [Combine duplicated columns within a DataFrame](https://stackoverflow.com/a/54300430)      
-- [Deleting all columns except a few](https://stackoverflow.com/a/54315757)  
+- [How to implement 'in' and 'not in' for Pandas dataframe](https://stackoverflow.com/a/55554709/4909087)   
+- [Combine duplicated columns within a DataFrame](https://stackoverflow.com/a/54300430/4909087)      
+- [Deleting all columns except a few](https://stackoverflow.com/a/54315757/4909087)  
 
 
 ## MultiIndex / advanced indexing
 - [How do I slice or filter MultiIndex DataFrame levels?](https://stackoverflow.com/questions/53927460/select-rows-in-pandas-multiindex-dataframe)  
-- [Selecting columns from pandas MultiIndex](https://stackoverflow.com/a/54337009)
-- [Setting DataFrame column headers to a MultiIndex](https://stackoverflow.com/a/54335583)     
+- [Selecting columns from pandas MultiIndex](https://stackoverflow.com/a/54337009/4909087)
+- [Setting DataFrame column headers to a MultiIndex](https://stackoverflow.com/a/54335583/4909087)     
 - [Reorder levels of MultiIndex in a pandas DataFrame](https://stackoverflow.com/a/62746392/4909087)
 
 
@@ -62,18 +64,18 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 - [Fast punctuation removal with pandas](https://stackoverflow.com/questions/50444346/fast-punctuation-removal-with-pandas)
 - [How to lowercase a pandas dataframe string column if it has missing values?](https://stackoverflow.com/a/56084317/4909087)    
 
-- [String concatenation of two pandas columns](https://stackoverflow.com/a/54298586)
-- [Remove unwanted parts from strings in a column](https://stackoverflow.com/a/54302517)  
-- [Select by partial string from a pandas DataFrame](https://stackoverflow.com/a/55335207)  
-- [Get first letter of a string from column](https://stackoverflow.com/a/55532764)
+- [String concatenation of two pandas columns](https://stackoverflow.com/a/54298586/4909087)
+- [Remove unwanted parts from strings in a column](https://stackoverflow.com/a/54302517/4909087)  
+- [Select by partial string from a pandas DataFrame](https://stackoverflow.com/a/55335207/4909087)  
+- [Get first letter of a string from column](https://stackoverflow.com/a/55532764/4909087)
 
 
 ## Working with missing data
 - [How to drop rows of Pandas DataFrame whose value in a certain column is NaN?](https://stackoverflow.com/a/62444845/4909087)  
 - [GroupBy columns with NaN (missing) values](https://stackoverflow.com/a/61922965/4909087) 
 - [How to check if any value is NaN in a Pandas DataFrame](https://stackoverflow.com/a/53862445/4909087)  
-- [Convert pandas.Series from dtype object to float, and errors to nans](https://stackoverflow.com/a/47942854)  
-- [How to replace values with None in Pandas data frame in Python?](https://stackoverflow.com/a/55469393) 
+- [Convert pandas.Series from dtype object to float, and errors to nans](https://stackoverflow.com/a/47942854/4909087)  
+- [How to replace values with None in Pandas data frame in Python?](https://stackoverflow.com/a/55469393/4909087) 
 - [Locate first and last non NaN values in a Pandas DataFrame](https://stackoverflow.com/a/56748194/4909087) - a discussion on `first_valid_index` and `last_valid_index`
 
 ## Categorical data
@@ -95,12 +97,12 @@ If you found any of my content here helpful and wish to thank me, you can upvote
  
 
 ## Group By: split-apply-combine
-- [Multiple aggregations of the same column using pandas GroupBy.agg()](https://stackoverflow.com/a/54300159)  
+- [Multiple aggregations of the same column using pandas GroupBy.agg()](https://stackoverflow.com/a/54300159/4909087)  
 - [Pandas GroupBy.apply method duplicates first group](https://stackoverflow.com/a/56215416/4909087)   
-- [Get statistics for each group (such as count, mean, etc) using pandas GroupBy?](https://stackoverflow.com/a/55564299)  
-- [GroupBy pandas DataFrame and select most common value](https://stackoverflow.com/a/54304691)    
-- [Python Pandas Create New Column with Groupby().Sum()](https://stackoverflow.com/a/54417351)   
-- [How to get number of groups in a groupby object in pandas?](https://stackoverflow.com/a/46512052)    
+- [Get statistics for each group (such as count, mean, etc) using pandas GroupBy?](https://stackoverflow.com/a/55564299/4909087)  
+- [GroupBy pandas DataFrame and select most common value](https://stackoverflow.com/a/54304691/4909087)    
+- [Python Pandas Create New Column with Groupby().Sum()](https://stackoverflow.com/a/54417351/4909087)   
+- [How to get number of groups in a groupby object in pandas?](https://stackoverflow.com/a/46512052/4909087)    
 
 
 ## Time series / date functionality
@@ -120,7 +122,7 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 - [Dynamic Expression Evaluation in pandas using pd.eval()](https://stackoverflow.com/questions/53779986/dynamic-expression-evaluation-in-pandas-using-pd-eval) 
 - [When should I (not) want to use pandas apply() in my code?](https://stackoverflow.com/questions/54432583/when-should-i-ever-want-to-use-pandas-apply-in-my-code)  
 - [Performant cartesian product (CROSS JOIN) with pandas](https://stackoverflow.com/questions/53699012/performant-cartesian-product-cross-join-with-pandas)  
-- [What is the performance impact of non-unique indexes in pandas?](https://stackoverflow.com/a/54317984)  
+- [What is the performance impact of non-unique indexes in pandas?](https://stackoverflow.com/a/54317984/4909087)  
 
 
 ## Scaling to large datasets
@@ -128,26 +130,28 @@ If you found any of my content here helpful and wish to thank me, you can upvote
 
 ## Sparse data structures
 
+- [Whats the right way to use a SparseDataFrame in Pandas?](https://stackoverflow.com/a/65324029/4909087)
+
 ## Frequently Asked Questions (FAQ)
-- [How to iterate over rows in a DataFrame in Pandas?](https://stackoverflow.com/a/55557758)   
+- [How to iterate over rows in a DataFrame in Pandas?](https://stackoverflow.com/a/55557758/4909087)   
 - [What is the difference between Series.replace and Series.str.replace?](https://stackoverflow.com/questions/56625031/what-is-the-difference-between-series-replace-and-series-str-replace)  
 - [Add column of empty lists to DataFrame](https://stackoverflow.com/a/62141252/4909087)  
 - [Change data type of columns in Pandas](https://stackoverflow.com/a/60278450/4909087)  
 - [Drop rows containing empty cells from a pandas DataFrame](https://stackoverflow.com/a/56708633/4909087)  
 - [How to get rid of “Unnamed: 0” column in a pandas DataFrame?](https://stackoverflow.com/a/54358758/4909087)  
 - [Difference between map, applymap and apply methods in Pandas](https://stackoverflow.com/a/56300992/4909087)  
-- [Convert list of dictionaries to a pandas DataFrame](https://stackoverflow.com/a/53831756)    
-- [Find the max of two or more columns with pandas](https://stackoverflow.com/a/54299629) 
-- [Sorting by absolute value without changing the data](https://stackoverflow.com/a/54299995)  
-- [How do I convert a pandas column or index to a Numpy array?](https://stackoverflow.com/a/54324513)  
-- [Convert pandas dataframe to NumPy array](https://stackoverflow.com/a/54508052)
-- [Logical operators for boolean indexing in Pandas](https://stackoverflow.com/a/54358361) 
-- [What is the difference between size and count in pandas?](https://stackoverflow.com/a/54364400)    
-- ['DataFrame' object has no attribute 'sort'](https://stackoverflow.com/a/54399214)
-- [Python pandas insert list into a cell](https://stackoverflow.com/a/54399996)
-- [How to add a suffix (or prefix) to each column name?](https://stackoverflow.com/a/54410631)  
-- [How do I get the row count of a Pandas dataframe?](https://stackoverflow.com/a/55435185)   
-- [Rename a specific column in pandas](https://stackoverflow.com/a/46146667)  
+- [Convert list of dictionaries to a pandas DataFrame](https://stackoverflow.com/a/53831756/4909087)    
+- [Find the max of two or more columns with pandas](https://stackoverflow.com/a/54299629/4909087) 
+- [Sorting by absolute value without changing the data](https://stackoverflow.com/a/54299995/4909087)  
+- [How do I convert a pandas column or index to a Numpy array?](https://stackoverflow.com/a/54324513/4909087)  
+- [Convert pandas dataframe to NumPy array](https://stackoverflow.com/a/54508052/4909087)
+- [Logical operators for boolean indexing in Pandas](https://stackoverflow.com/a/54358361/4909087) 
+- [What is the difference between size and count in pandas?](https://stackoverflow.com/a/54364400/4909087)    
+- ['DataFrame' object has no attribute 'sort'](https://stackoverflow.com/a/54399214/4909087)
+- [Python pandas insert list into a cell](https://stackoverflow.com/a/54399996/4909087)
+- [How to add a suffix (or prefix) to each column name?](https://stackoverflow.com/a/54410631/4909087)  
+- [How do I get the row count of a Pandas dataframe?](https://stackoverflow.com/a/55435185/4909087)   
+- [Rename a specific column in pandas](https://stackoverflow.com/a/46146667/4909087)  
 - [Get list from pandas DataFrame column headers](https://stackoverflow.com/a/55491499/4909087)   
  
 
